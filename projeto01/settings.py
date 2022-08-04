@@ -41,7 +41,7 @@ DJANGO_APPS = [
 ]
 
 OTHER_APPS = [
-    
+    'brootstap5',  
 ]
 
 MY_APPS = [
