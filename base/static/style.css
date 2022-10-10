@@ -1,0 +1,98 @@
+:root {
+    --color-primary: #C058FF;
+  
+    --color-white: #fff;
+    --color-black: #000;
+  
+    --color-info-dark: #4d86c4;
+    --color-debug-dark: #4d86c4;
+    --color-success-dark: #4a9c5d;
+    --color-alert-dark: #927f40;
+    --color-warning-dark: #927f40;
+    --color-error-dark: #da525d;
+  
+    --font-primary: sans-serif;
+    --font-headings: "Roboto Slab", serif;
+  
+    --spacing-gutter-medium: 3rem;
+    --spacing-gutter-large: 4rem;
+  }
+  
+  /* Configurações de reset da página */
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-size: 1.6rem; /*16 px*/
+    font-family: var(--font-primary);
+    background-color: var(--color-primary);
+  }
+  
+  /*      */
+  
+  .navbar {
+    background: var(--color-white);
+  }
+  
+  .navbar-brand {
+    font-size: 3rem;
+  }
+
+  main {
+    background-color: var(--color-white);
+    max-width: 400px;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: large;
+  }
+
+  .btn {
+    color: var(--color-white);
+    background: var(--color-primary);
+    font-weight: bold;
+  }
+
+  .texto {
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Inter', sans-serif;
+    color: var(--color-white);
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  .foto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    margin-top: 5%;
+  }
+  
+  .card {
+    margin-left: 10%;
+    margin-right: auto;
+    margin-top: 5%;
+    display: inline-block;
+  }
+
+  h1 {
+    color: var(--color-black);
+    font-family: var(--font-headings);
+  }
+
+  h6 {
+    color: var(--color-black);
+    font-size: 4.0rem;
+    text-align: left;
+  }

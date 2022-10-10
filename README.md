@@ -1,2 +1,0 @@
-# Nails-Designer-RN
-mmmmmmmmmmm
